@@ -1,0 +1,123 @@
+/*FONT*/
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src: url("fonts/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf");
+}
+/*FONT*/
+
+
+body {
+    margin: 0;
+    background-color: #080001;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#1B244A;
+   
+    height: 385px;
+    margin: 50px auto;
+}
+
+.container h3{
+    color:#EEEEEE;
+    font-size:40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    line-height: 35.89px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.score
+{
+    background-color:#080001 ;
+    width: 155px;
+    height: 120px;
+    margin:auto;
+}
+
+#score-number-home  
+{
+    font-family: Cursed Timer uLiL;
+    color:#F94F6D;
+    text-align:center;
+    width: 117px;
+    height: 120px;
+    font-size:90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    word-wrap: break-words;
+    margin:auto;
+}
+
+#score-number-away {
+    font-family: Cursed Timer uLiL;
+    color: #F94F6D;
+    text-align: center;
+    width: 117px;
+    height: 120px;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    word-wrap: break-words;
+    margin: auto;
+}
+
+
+
+.buttons
+{
+    margin-top:26px;
+    display:flex;
+    justify-content: space-around;
+
+    
+}
+
+.buttons button{
+    font-family: Cursed Timer uLiL;
+    color:#9AABD8;
+    font-weight: 400;
+    line-height: 27.81px;
+    word-wrap: break-word;
+    background-color: transparent;
+    border:#9AABD8 solid 2px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 70px;
+    height: 70px;
+    margin:9px;
+}
+.buttons button:hover{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.reset-container
+{
+   
+    
+}
+
+.reset-container button
+{
+    color: #F94F6D;
+    background-color: transparent;
+    border:#9AABD8 6px solid;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: Cursed Timer ULiL;
+    width: 150px;
+    height: 100px;
+}
+
+.reset-container button:hover
+{
+    background-color: #F94F6D;
+    color:#EEEEEE;
+}
+
+
